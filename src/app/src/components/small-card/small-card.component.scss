@@ -1,9 +1,21 @@
-h2{
-    color:white;
+div{
+    display: flex;
+    border-bottom: thin solid white;
+    padding-bottom: 1rem;
+    align-items: center;
+
+    h2{
+        color:white;
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+    
+    img{
+        max-width: 30%;
+        object-fit: contain;
+    }
 }
 
-img{
-    max-width: 45%;
+div:not(:first-child){
+    margin-top: 1rem;
 }
-
-
