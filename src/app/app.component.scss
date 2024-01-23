@@ -3,6 +3,26 @@ main{
     background-color: #000000;
 }
 
-div{
+div {
     display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+Heading{
+    display: flex;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+}
+
+TitleBanner{
+    display: flex;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    border-style: solid ;
+    border-top: medium solid #ffffff;
+    border-bottom: medium solid #ffffff;
 }
