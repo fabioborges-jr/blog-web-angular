@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-content',
+  selector: 'ContentPage',
   standalone: true,
   imports: [],
   templateUrl: './content.component.html',
