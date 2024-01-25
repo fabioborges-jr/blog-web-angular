@@ -5,7 +5,7 @@ import { BigCardComponent } from '../../components/big-card/big-card.component';
 import { SmallCardComponent } from '../../components/small-card/small-card.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'HomePage',
   standalone: true,
   imports: [
     HeadingComponent,

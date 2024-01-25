@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    BigCard{
+        width: 40%;
+    }
+}
+
+.listSmallCards{
+    width: 60%;
+
+    SmallCard{
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+Heading{
+    display: flex;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+}
+
+TitleBanner{
+    display: flex;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    border-style: solid ;
+    border-top: medium solid #ffffff;
+    border-bottom: medium solid #ffffff;
+}
