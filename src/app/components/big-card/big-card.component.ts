@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Movie } from '../../types/Movie';
+
 
 @Component({
   selector: 'BigCard',
@@ -8,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrl: './big-card.component.scss'
 })
 export class BigCardComponent {
-
+  @Input() movie!:Movie|undefined
 }
