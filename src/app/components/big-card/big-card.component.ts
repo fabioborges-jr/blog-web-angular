@@ -10,5 +10,5 @@ import { Movie } from '../../types/Movie';
   styleUrl: './big-card.component.scss'
 })
 export class BigCardComponent {
-  @Input() movie!:Movie|undefined
+  @Input() movie?:Movie
 }
