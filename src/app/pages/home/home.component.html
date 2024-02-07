@@ -3,9 +3,7 @@
   <div class="container">
     <BigCard [movie]="movieBigCard"></BigCard>
     <div class="listSmallCards">
-      <SmallCard></SmallCard>
-      <SmallCard></SmallCard>
-      <SmallCard></SmallCard>
+      <SmallCard *ngFor="let movie of movies" [movie]="movie"></SmallCard>
     </div>
   </div>
 </main>
