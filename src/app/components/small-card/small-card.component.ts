@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Movie } from '../../types/Movie';
 import { NgFor } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -15,18 +15,12 @@ import { RouterModule } from '@angular/router';
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.scss'
 })
-export class SmallCardComponent {
+export class SmallCardComponent implements OnInit {
   @Input() movie?:Movie
   id: number | undefined
   
-
-  teste(){
-    console.log(this.movie)
-  }
-
-  constructor(){
+  ngOnInit(): void {
     this.id=this.movie?.id
-    this.teste()
   }
 }
 
