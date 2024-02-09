@@ -23,4 +23,3 @@ export class SmallCardComponent implements OnInit {
     this.id=this.movie?.id
   }
 }
-
