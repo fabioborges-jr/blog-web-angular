@@ -1,21 +1,26 @@
-div{
-    display: flex;
-    border-bottom: thin solid white;
-    padding-bottom: 1rem;
-    align-items: center;
 
-    h2{
-        color:white;
-        margin-left: 2rem;
-        font-size: 2rem;
+    div{
+        a{
+            display: flex;
+            border-bottom: thin solid white;
+            padding-bottom: 1rem;
+            align-items: center;
+            text-decoration: none;
+            
+            h2{
+                color:white;
+                margin-left: 2rem;
+                font-size: 2rem;
+            }
+            
+            img{
+                max-width: 30%;
+                object-fit: contain;
+            }
+        }
     }
     
-    img{
-        max-width: 30%;
-        object-fit: contain;
+    div:not(:first-child){
+        margin-top: 1rem;
     }
-}
 
-div:not(:first-child){
-    margin-top: 1rem;
-}

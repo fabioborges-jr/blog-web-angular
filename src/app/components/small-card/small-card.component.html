@@ -1,4 +1,6 @@
 <div>
-    <img src="https://media.hugogloss.uol.com.br/uploads/2019/10/disneyplus-catalogo-completo.jpg" alt="">
-    <h2>{{movie?.title}}</h2>
+    <a [routerLink]="['content', id]">
+        <img src={{movie?.photo}} alt="">
+        <h2>{{movie?.title}}</h2>
+    </a>
 </div>
