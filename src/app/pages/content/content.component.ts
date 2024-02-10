@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import {movies} from "../../data/dataFake"
+import { movies } from "../../data/dataFake"
+import { Movie } from '../../types/Movie';
 
 @Component({
   selector: 'ContentPage',
@@ -11,6 +12,7 @@ import {movies} from "../../data/dataFake"
 })
 export class ContentComponent implements OnInit {
   id?: string|null
+  movie?: Movie
 
   constructor(
     private route:ActivatedRoute
@@ -24,8 +26,7 @@ export class ContentComponent implements OnInit {
   }
 
   setValueToComponent(id:string|null|undefined){
-    const movie=movies.filter(movie=>movie.id.toString()==id)
-    console.log(movie)
+    this.movie=movies.filter(movie=>movie.id.toString()==id).shift()
+    console.log(this.movie)
   }
-
 }
