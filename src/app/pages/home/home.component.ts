@@ -23,7 +23,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  movieBigCard:Movie|undefined=movies.shift()
+  movieBigCard:Movie|undefined=movies[0]
   moviesSmallCards:Movie[]=movies
   movies:Movie[]=movies
 }

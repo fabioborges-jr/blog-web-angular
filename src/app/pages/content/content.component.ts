@@ -26,6 +26,7 @@ export class ContentComponent implements OnInit {
   }
 
   setValueToComponent(id:string|null|undefined){
+    console.log(movies)
     this.movie=movies.filter(movie=>movie.id.toString()==id).shift()
     console.log(this.movie)
   }

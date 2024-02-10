@@ -2,7 +2,7 @@ export const movies = [
     {
         id: 1,
         title: "Qui maxime dolore At dolores recusandae",
-        photo: "https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg",
+        photo: "https://bestwallpapers.in/wp-content/uploads/2018/05/deadpool-2-movie-bullets-poster-4k-wallpaper-2560x1600.jpg",
         description: "Qui maxime dolore At dolores recusandae et odit explicabo et autem galisum ea modi",
         text: "Lorem ipsum dolor sit amet. Ut consectetur necessitatibus ad inventore mollitia et nemo voluptas in distinctio ipsum. Qui maxime dolore At dolores recusandae et odit explicabo et autem galisum ea modi nemo qui numquam eaque. Vel excepturi adipisci aut voluptas autem et tenetur placeat qui doloremque facere vel libero unde qui officiis consequatur sit dolorem esse."
     },
